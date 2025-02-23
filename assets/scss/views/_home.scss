@@ -1,0 +1,679 @@
+// hero sec start 
+.heroWrap {
+    background-color: #158BFF;
+    height: calc(100vh - 96px);
+    margin-top: 96px;
+
+    .container {
+        position: relative;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .pencilImg {
+        position: absolute;
+        bottom: -85px;
+        left: 18%;
+        transform: translateX(-50%);
+        max-width: 680px;
+        width: 100%;
+        z-index: -1;
+        overflow: hidden;
+        transform: translatey(0px);
+        animation: floatPencil 6s ease-in-out infinite;
+    }
+
+    .heroInner {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .heroImg {
+        max-width: 370px;
+        width: 100%;
+
+        h6 {
+            margin-top: 24px;
+            font-weight: 600;
+            color: #fff;
+            font-size: 20px;
+            padding-left: 10px;
+
+            span {
+                font-weight: 800;
+            }
+        }
+    }
+
+    .hero_btn {
+        background-color: #FCE76C;
+        color: #000;
+        width: 336px;
+        height: 115px;
+        font-weight: 800;
+        font-size: 20px;
+        gap: 36px;
+        position: absolute;
+        right: 0;
+        bottom: 15px;
+
+        // transform: translateY(50%);
+        &:hover {
+            color: #158BFF;
+
+            svg path {
+                fill: #158BFF;
+            }
+        }
+
+        .btnArrow {
+            overflow: hidden;
+            transform: translatey(0px);
+            animation: floatArrow 6s ease-in-out infinite;
+        }
+    }
+}
+
+.heroText {
+    color: #fff;
+
+    li {
+        &:nth-of-type(2) {
+            padding-left: 100px;
+        }
+
+        &:nth-of-type(3) {
+            padding-left: 150px;
+        }
+
+        &:nth-of-type(4) {
+            padding-left: 200px;
+        }
+
+        &:nth-of-type(5) {
+            padding-left: 220px;
+        }
+
+        &:nth-of-type(6) {
+            padding-left: 220px;
+        }
+
+        &.dateWrap {
+            display: flex;
+            margin-bottom: 24px;
+
+            h6 {
+                font-size: 58px;
+                font-weight: 700;
+                color: #DF6F6D;
+
+                &:first-of-type {
+                    padding-right: 55px;
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        background-color: #DF6F6D;
+                        width: 42px;
+                        height: 1px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        position: absolute;
+                        right: 8px;
+                    }
+                }
+
+                sup {
+                    font-size: 36px;
+                    top: -45%;
+                }
+            }
+        }
+    }
+
+    h4 {
+        font-size: 38px;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-weight: 800;
+        font-family: $secondFont;
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 24px;
+        font-style: italic;
+    }
+
+    span {
+        display: block;
+        font-size: 12px;
+        margin-top: 23px;
+        font-weight: 600;
+        font-style: italic;
+    }
+}
+
+@keyframes floatPencil {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@keyframes floatArrow {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(12px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+// hero sec end
+
+
+// submission sec start
+.subWrap {
+    padding-top: 85px;
+
+    h3 {
+        color: #158BFF;
+        font-weight: 800;
+        margin-bottom: 23px;
+    }
+}
+
+.subInner {
+    background-color: #F6F6F6;
+    padding: 30px 0;
+
+    .subContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 75px;
+    }
+
+
+    .subText {
+        padding-left: 100px;
+        width: 100%;
+        max-width: 630px;
+
+        h2 {
+            font-size: 64px;
+            font-weight: 800;
+            color: #F8AC1A;
+        }
+
+        h6 {
+            font-size: 32px;
+            font-weight: 800;
+            color: #F8AC1A;
+        }
+    }
+
+    .timerCoundown {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-top: 60px;
+
+        .day {
+            max-width: 90px;
+            width: 100%;
+        }
+
+        h1 {
+            font-weight: 800;
+            font-size: 128px;
+            color: #158BFF;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-weight: 800;
+            font-size: 32px;
+            color: #F8AC1A;
+
+        }
+    }
+
+    .hurrySec {
+        border: 1px solid #158BFF;
+        padding: 112px 73px 32px 73px;
+        max-width: 520px;
+        width: 100%;
+        min-height: 560px;
+
+        span {
+            font-weight: 800;
+            font-size: 14px;
+            color: #444444;
+            margin-bottom: 38px;
+            display: block;
+        }
+
+        h5 {
+            font-weight: 800;
+            color: #158BFF;
+            margin-bottom: 55px;
+            max-width: 325px;
+            width: 100%;
+        }
+
+        li {
+            gap: 24px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            &:last-child {
+                h3 {
+                    margin-bottom: 0;
+                }
+            }
+
+            svg {
+                min-width: 21px;
+                width: 21px;
+            }
+
+            &:hover {
+                h3 {
+                    color: #E00919;
+                }
+
+                svg path {
+                    fill: #E00919;
+                }
+            }
+        }
+    }
+}
+
+// submission sec end
+
+// tourWrap sec start
+.tourWrap {
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+    .container {
+        max-width: 1710px;
+        width: 100%;
+    }
+
+    h1 {
+        font-weight: 800;
+        color: #158BFF;
+        font-size: 96px;
+        padding-left: 150px;
+    }
+
+    h6 {
+        font-weight: 800;
+        color: #158BFF;
+        font-size: 24px;
+        padding-left: 80px;
+        margin-bottom: 18px;
+    }
+
+    .dateRow {
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        top: 100px;
+
+        .border {
+            background-color: #010202;
+            width: 22px;
+            height: 1px;
+            margin: 0 9px;
+        }
+
+        &.dateRow_ {
+            div {
+                background-color: #158BFF;
+
+                p {
+                    color: #fff;
+                }
+
+                .border {
+                    background-color: #fff;
+                }
+            }
+        }
+
+        .rect {
+            width: 80px;
+            height: 24px;
+            background-color: #E00919;
+            padding-right: 0;
+            margin-left: auto;
+        }
+
+        div {
+            background-color: #F9F4F4;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            height: 120px;
+            padding-right: 35px;
+
+            p {
+                color: #010202;
+                font-size: 29.52px;
+                font-weight: 500;
+                font-family: $irishFont;
+
+                sup {
+                    font-size: 18.32px;
+                }
+            }
+        }
+    }
+}
+
+.videoWrap {
+    display: flex;
+    justify-content: space-between;
+
+    .videoBox {
+        width: calc(50% - 25px);
+        position: relative;
+
+        &:last-child {
+            margin-top: 180px;
+        }
+    }
+
+    .videoImg {
+        position: relative;
+
+        .playBtn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 144px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .progBtn {
+            max-width: 315px;
+            width: 100%;
+            height: 86px;
+            background-color: #E00919;
+            font-weight: 800;
+            font-size: 20px;
+            gap: 22px;
+            color: #fff;
+
+            &:hover {
+                background-color: #158BFF;
+            }
+        }
+
+        .docIcon {
+            width: 32px;
+            height: 32px;
+            background-color: #158BFF;
+            padding: 8px;
+        }
+    }
+
+    .videoContent {
+        max-width: 246px;
+        width: 100%;
+        margin-left: 39px;
+
+        p {
+            color: #010202;
+
+            b {
+                font-weight: 800;
+            }
+        }
+
+        span {
+            color: #010202;
+            font-size: 12px;
+            display: block;
+
+            b {
+                font-weight: 800;
+            }
+        }
+
+        li {
+            &+li {
+                margin-top: 20px;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                color: #E00919 !important;
+                font-weight: 600;
+
+                span {
+                    color: inherit;
+                    font-weight: inherit;
+                }
+            }
+        }
+    }
+}
+
+// tourWrap sec end
+
+// light box start
+/* General styling for video containers */
+.videoImg {
+    position: relative;
+    /* Needed for absolute positioning of the play button */
+    display: inline-block;
+    /* Allows for the arrangement of multiple containers side by side */
+    cursor: pointer;
+    /* Indicates that the container is clickable */
+    max-width: 100%;
+    /* Ensures the container does not overflow its parent */
+}
+
+/* Style for the lightbox background */
+.lightbox {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stays in place, above other content */
+    z-index: 1000;
+    /* Ensures it's on top of other elements */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Semi-transparent background */
+    justify-content: center;
+    /* Centers content horizontally */
+    align-items: center;
+    /* Centers content vertically */
+}
+
+/* Style for videos inside the lightbox */
+.lightbox video {
+    max-width: 80%;
+    /* Limits video width to 80% of the viewport width */
+    max-height: 80vh;
+    /* Limits video height to 80% of the viewport height */
+}
+
+/* Styling for play buttons */
+.playBtn {
+    position: absolute;
+    /* Positions the play button over the video image */
+    top: 50%;
+    /* Centers vertically */
+    left: 50%;
+    /* Centers horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjusts position to true center */
+    width: 64px;
+    /* Set width of the play button */
+    height: 64px;
+    /* Set height of the play button */
+    cursor: pointer;
+    /* Reinforces that the button is clickable */
+}
+
+/* Ensures images fill their container without stretching */
+.videoImg img {
+    width: 100%;
+    /* Make the image responsive */
+    display: block;
+    /* Remove bottom margin/spacing */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+// light box end
+
+
+// side bar sec start
+#sidebar {
+    position: fixed;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    z-index: 999;
+
+    &::before {
+        content: "";
+        background-color: #158BFF;
+        width: 150px;
+        height: calc(100% + 40px);
+        position: absolute;
+        left: -123px;
+        top: 50%;
+        z-index: -1;
+        transform: translateY(-50%);
+    }
+
+    ul {
+        height: 240px;
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 3px;
+
+        li {
+            position: relative;
+
+            span {
+                position: absolute;
+                left: -70px;
+                top: 30px;
+                font-size: 18px;
+                font-weight: 800;
+                color: #fff;
+            }
+        }
+    }
+}
+
+#sidebar ul li a {
+    height: 60px;
+    display: block;
+    width: 100%;
+}
+
+#sidebar ul li a.active {
+    background-color: #fff;
+    height: 60px;
+    display: block;
+    width: 100%;
+
+    span {
+        font-weight: 600;
+    }
+}
+
+// side bar sec end
+
+
+// logos sec statt 
+.logosWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1117px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+
+// logos sec end
+
+#timerModal {
+    .modal-content {
+        background-color: #F6F6F6;
+        padding: 20px;
+        min-height: 35vh;
+    }
+
+    .modal-header {
+        padding: 0;
+        border: 0;
+        justify-content: end;
+
+        button {
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .modal-body {
+        padding: 0;
+        text-align: center;
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+
+        .modalBtn {
+            background-color: #FCE76C;
+            color: #000;
+            max-width: 200px;
+            width: 100%;
+            height: 50px;
+            font-weight: 600;
+            font-size: 16px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: auto;
+        }
+    }
+}

@@ -1,0 +1,534 @@
+@media (max-width: 1500px) { 
+    .navInner .navBrand {
+        max-width: 75px;
+        padding: 15px;
+    }
+    .navInner {
+        height: 75px;
+    }
+    .navInner .navMiddle {
+        padding-right: 35px;
+    }
+    .navInner .navIcons {
+        max-width: 260px;
+        padding: 0 35px;
+    }
+    .navInner .langWrap {
+        max-width: 260px;
+    }
+    .heroWrap {
+        height: calc(100vh - 75px);
+        margin-top: 75px;
+    }
+    .heroWrap .heroImg {
+        max-width: 280px;
+    }
+    .heroWrap .pencilImg {
+        max-width: 520px;
+    }
+    .heroText h4 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 36px;
+    }
+    .heroText li.dateWrap h6 {
+        font-size: 42px;
+        line-height: 1.5;
+    }
+    .heroText li.dateWrap h6 sup {
+        font-size: 26px;
+        top: -18px;
+    }
+    .heroWrap .hero_btn {
+        width: 260px;
+        height: 80px;
+        font-size: 18px;
+        gap: 20px;
+    }
+    .subInner .subText h2 {
+        font-size: 50px;
+    }
+    .subInner .subText h6 {
+        font-size: 20px;
+    }
+    .subInner .subText {
+        padding-left: 40px;
+        max-width: 535px;
+    }
+    .subInner .timerCoundown {
+        margin-top: 30px;
+    }
+    .subInner .timerCoundown h1 {
+        font-size: 100px;
+        margin-bottom: 6px;
+    }
+    .subInner .timerCoundown p {
+        font-size: 24px;
+    }
+    .subInner .hurrySec {
+        padding: 60px 35px 35px 50px;
+        max-width: 450px;
+        min-height: 440px;
+    }
+    .tourWrap h1 {
+        font-size: 75px;
+        padding-left: 80px;
+    }
+    .tourWrap h6 {
+        font-size: 18px;
+        padding-left: 60px;
+        margin-bottom: 12px;
+    }
+    .tourWrap .container {
+        max-width: 100%;
+        width: 93%;
+    }
+    .videoWrap .videoBox {
+        width: calc(50% - 15px);
+    }
+    .videoWrap .videoContent {
+        margin-left: 20px;
+    }
+    .videoWrap .videoImg {
+        max-width: 320px;
+        width: 100%;
+    }
+    .tourWrap .dateRow div {
+        height: 80px;
+        padding-right: 30px;
+    }
+    .tourWrap .dateRow div p {
+        font-size: 22px;
+    }
+    .tourWrap .dateRow {
+        top: 65px;
+    }
+    .videoWrap .videoImg .progBtn {
+        max-width: 250px;
+        height: 70px;
+        font-size: 16px;
+        gap: 16px;
+    }
+    .videoWrap .videoBox:last-child {
+        margin-top: 120px;
+    }
+    .tourWrap {
+        padding-bottom: 150px;
+    }
+    .socialIcons li {
+        width: 70px;
+        height: 70px;
+    }
+    .footerWrap {
+        padding-bottom: 130px;
+    }
+}
+
+@media (max-width: 1370px) { 
+    .navInner .navBrand {
+        max-width: 60px;
+        padding: 10px;
+    }
+    .navInner {
+        height: 60px;
+    }
+    .heroWrap {
+        height: calc(100vh - 60px);
+        margin-top: 60px;
+    }
+    .navInner .navIcons {
+        max-width: 216px;
+        padding: 0 30px;
+    }
+    .navInner .langWrap{
+        max-width: 216px;
+    }
+    .navInner .langWrap a {
+        font-size: 16px;
+    }
+    .heroWrap .heroImg {
+        max-width: 220px;
+    }
+    .heroWrap .pencilImg {
+        max-width: 410px;
+        bottom: -70px;
+        left: 20%;
+    }
+    .heroWrap .heroImg h6 {
+        margin-top: 16px;
+        font-size: 16px;
+        padding-left: 6px;
+    }
+    .heroText h4 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .heroText li.dateWrap h6 {
+        font-size: 34px;
+        line-height: 1.5;
+    }
+    .heroText li.dateWrap h6:first-of-type {
+        padding-right: 30px;
+    }
+    .heroText li.dateWrap h6:first-of-type::before {
+        width: 18px;
+        right: 6px;
+    }
+    .heroText p {
+        font-size: 18px;
+    }
+    .heroText li:nth-of-type(2) {
+        padding-left: 60px;
+    }
+    .heroText li.dateWrap {
+        margin-bottom: 15px;
+    }
+    .heroText li:nth-of-type(3) {
+        padding-left: 100px;
+    }
+    .heroText li:nth-of-type(4) {
+        padding-left: 140px;
+    }
+    .heroText li:nth-of-type(5) {
+        padding-left: 160px;
+    }
+    .heroText li:nth-of-type(6) {
+        padding-left: 160px;
+    }
+    p {
+        font-size: 15px;
+    }
+    #sidebar ul li span {
+        left: -60px;
+        font-size: 16px;
+        top: 15px;
+    }
+    .heroWrap .hero_btn {
+        width: 220px;
+        height: 60px;
+        font-size: 16px;
+        gap: 10px;
+    }
+    .heroWrap .hero_btn .btnArrow {
+        width: 15px;
+    }
+    @keyframes floatPencil {
+        0% {
+            transform: translatey(0px);
+        }
+    
+        50% {
+            transform: translatey(-10px);
+        }
+    
+        100% {
+            transform: translatey(0px);
+        }
+    }
+    .subWrap h3 {
+        margin-bottom: 16px;
+    }
+    .subInner .subText h2 {
+        font-size: 40px;
+    }
+    .subInner .subText h6 {
+        font-size: 16px;
+    }
+    .subInner .subText {
+        padding-left: 0;
+        max-width: 400px;
+    }
+    .subInner .timerCoundown h1 {
+        font-size: 75px;
+    }
+    .subInner .hurrySec {
+        padding: 50px 20px 20px 50px;
+        max-width: 420px;
+        min-height: 370px;
+    }
+    #sidebar::before {
+        width: 100px;
+        height: calc(100% + 25px);
+        left: -85px;
+    }
+    #sidebar ul li a.active {
+        height: 45px;
+    }
+    #sidebar ul {
+        height: 205px;
+    }
+    .tourWrap {
+        padding-bottom: 120px;
+        padding-top: 50px;
+    }
+    .tourWrap h1 {
+        font-size: 50px;
+        padding-left: 0;
+    }
+    .tourWrap h6 {
+        font-size: 16px;
+        padding-left: 0;
+    }
+    .videoWrap .videoImg {
+        max-width: 290px;
+    }
+    .videoWrap .videoImg .playBtn {
+        max-width: 100px;
+    }
+    .tourWrap .dateRow div {
+        height: 60px;
+    }
+    .tourWrap .dateRow div p {
+        font-size: 16px;
+    }
+    .tourWrap .dateRow .rect {
+        width: 55px;
+        height: 16px;
+    }
+    .tourWrap .dateRow div p sup {
+        font-size: 14px;
+    }
+    .videoWrap .videoImg .progBtn {
+        max-width: 200px;
+        height: 60px;
+        font-size: 14px;
+        gap: 10px;
+        svg{
+width: 14px;
+        }
+    }
+    .videoWrap .videoImg .docIcon {
+        width: 28px;
+        height: 28px;
+        padding: 7px;
+    }
+    .videoWrap .videoContent {
+        margin-left: 15px;
+    }
+    .socialIcons li {
+        width: 55px;
+        height: 55px;
+    }
+    .socialIcons {
+        width: 112px;
+    }
+    .footerWrap {
+        padding-bottom: 100px;
+    }
+}
+// Ipad pro 
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+    .navWrap .container {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .heroWrap {
+        height: auto;
+    }
+    .heroWrap .heroInner{
+        padding: 145px 0;
+    }
+    .videoWrap {
+        flex-wrap: wrap;
+    }
+    .videoWrap .videoBox {
+        width: 100%;
+    }
+    .tourWrap h1 {
+        font-size: 40px;
+    }
+    .videoWrap .videoImg {
+        margin-left: 60px;
+    }
+    .videoWrap .videoContent {
+        max-width: 60%;
+    }
+    .videoWrap .videoBox:last-child {
+        margin-top: 50px;
+    }
+    
+    
+ }
+
+//  ipad 
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+    .navInner .navBrand {
+        max-width: 50px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .secLogo{
+        max-width: 80px;
+        width: 100%;
+    }
+    .navInner .navMiddle {
+        padding-right: 10px;
+        padding-left: 10px;
+        gap: 20px;
+    }
+    .navInner .navMiddle .navLink {
+        text-align: center;
+    }
+    .navInner .navIcons {
+        max-width: 170px;
+        padding: 0 20px;
+    }
+    .navInner .langWrap {
+        max-width: 170px;
+    }
+    .heroText li:nth-of-type(2) {
+        padding-left: 20px;
+    }
+    .heroText li:nth-of-type(3) {
+        padding-left: 45px;
+    }
+    .heroText li:nth-of-type(4) {
+        padding-left: 70px;
+    }
+    .heroText li:nth-of-type(5) {
+        padding-left: 85px;
+    }
+    .heroText li:nth-of-type(6){
+        padding-left: 85px;
+    }
+    .heroWrap .hero_btn {
+        width: 175px;
+        height: 55px;
+        font-size: 15px;
+        margin-right: 12px;
+    }
+    .subInner .timerCoundown h1 {
+        font-size: 68px;
+    }
+    .subInner .hurrySec {
+        padding: 20px;
+    }
+    .tourWrap h1 {
+        font-size: 34px;
+    }
+    .logosWrap {
+        gap: 25px;
+    }
+    .footerInner ul {
+        max-width: 175px;
+        width: 100%;
+    }
+ }
+
+//  mobile 
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .navInner .navMiddle {
+        display: none;
+    }
+    .navInner .navIcons {
+        margin-right: 0;
+    }
+    .heroWrap .heroInner {
+        padding: 85px 0;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .heroWrap .heroImg {
+        max-width: 180px;
+    }
+    .heroWrap .heroImg h6 {
+        margin-top: 12px;
+        font-size: 14px;
+        padding-left: 0;
+    }
+    .heroText li:nth-of-type(2) {
+        padding-left: 0;
+    }
+    .heroText li:nth-of-type(3) {
+        padding-left: 0;
+    }
+    .heroText li:nth-of-type(4) {
+        padding-left: 0;
+    }
+    .heroText li:nth-of-type(5) {
+        padding-left: 0;
+    }
+    .heroText li:nth-of-type(6) {
+        padding-left: 0;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    .heroText h4 {
+        font-size: 20px;
+    }
+    .heroText li.dateWrap h6 {
+        font-size: 26px;
+    }
+    .heroText li.dateWrap h6 sup {
+        font-size: 16px;
+        top: -12px;
+    }
+    #sidebar {
+        right: 20px;
+    }
+    .subInner .subContent {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .subInner .hurrySec {
+        min-height: 250px;
+    }
+    .videoWrap .videoContent {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    .videoWrap .videoImg {
+        margin-left: 0;
+    }
+    .videoWrap .videoImg {
+        max-width: 220px;
+    }
+    .tourWrap .dateRow div p {
+        font-size: 13px;
+    }
+    .tourWrap .dateRow div p sup {
+        font-size: 10px;
+    }
+    .tourWrap .dateRow div {
+        padding: 6px;
+        flex-direction: column;
+        align-items: end;
+        height: auto !important;
+        justify-content: end;
+        text-align: end;
+        gap: 5px;
+
+    }
+    .tourWrap .dateRow .border {
+        height: 1px !important;
+        margin: 0;
+        min-height: 1px;
+        max-height: 1px;
+        padding: 0;
+    }
+    .logosWrap {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .footerInner {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footerInner ul {
+        max-width: 100%;
+    }
+    .footerInner ul li:first-child a {
+        margin-bottom: 10px;
+    }
+ }

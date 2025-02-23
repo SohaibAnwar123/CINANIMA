@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CINANIMA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- navbar start  -->
+    <header class="navWrap">
+        <div class="container">
+            <div class="navInner">
+                <div class="navBrand flex_align">
+                    <img src="./assets/img/mainLogo.svg" alt="">
+                </div>
+                <ul class="navMiddle">
+                    <li class="secLogo">
+                        <a href="index.html"><img src="./assets/img/secLogo.svg" alt=""></a>
+                    </li>
+                    <li><a href="#inicio" class="navLink">
+                            <p>Início</p>
+                        </a></li>
+                    <li><a href="#section1" class="navLink">
+                            <p>Submissão dos filmes</p>
+                        </a></li>
+                    <li><a href="#section2" class="navLink">
+                            <p>Cinanima On Tour & Junior</p>
+                        </a></li>
+                </ul>
+                <div class="navIcons">
+                    <a href=""><svg width="18" height="20" viewBox="0 0 18 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 15V16C12 17.6569 10.6569 19 9 19C7.34315 19 6 17.6569 6 16V15M12 15H6M12 15H15.5905C15.973 15 16.1652 15 16.3201 14.9478C16.616 14.848 16.8475 14.6156 16.9473 14.3198C16.9997 14.1643 16.9997 13.9715 16.9997 13.5859C16.9997 13.4172 16.9995 13.3329 16.9863 13.2524C16.9614 13.1004 16.9024 12.9563 16.8126 12.8312C16.7651 12.7651 16.7048 12.7048 16.5858 12.5858L16.1963 12.1963C16.0706 12.0706 16 11.9001 16 11.7224V8C16 4.134 12.866 0.999991 9 1C5.13401 1.00001 2 4.13401 2 8V11.7224C2 11.9002 1.92924 12.0706 1.80357 12.1963L1.41406 12.5858C1.29476 12.7051 1.23504 12.765 1.1875 12.8312C1.09766 12.9564 1.03815 13.1004 1.0132 13.2524C1 13.3329 1 13.4172 1 13.586C1 13.9715 1 14.1642 1.05245 14.3197C1.15225 14.6156 1.3848 14.848 1.68066 14.9478C1.83556 15 2.02701 15 2.40956 15H6"
+                                stroke="#010202" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.8328 8.8125H5.5471H4.20809L3.26339 17.125H15.1208L14.1761 8.8125H12.8328ZM4.33282 6.4375V5.25C4.33282 2.62562 6.51245 0.5 9.18993 0.5C11.8686 0.5 14.047 2.62562 14.047 5.25V6.4375H15.258C15.8773 6.4375 16.397 6.88875 16.465 7.49438L17.6538 17.9444C17.6881 18.0525 17.6878 18.1606 17.6874 18.2777C17.6874 18.2892 17.6874 18.3008 17.6874 18.3125C17.6874 18.9656 17.1681 19.5 16.4978 19.5H1.90098C1.55613 19.5 1.22706 19.3575 0.996346 19.1081C0.765633 18.8587 0.656348 18.5144 0.695205 18.1819L1.90948 7.49438C1.97748 6.88875 2.49719 6.4375 3.11526 6.4375H4.33282ZM6.76138 6.4375H11.6185V5.25C11.6185 3.94375 10.5305 2.875 9.18993 2.875C7.85058 2.875 6.76138 3.94375 6.76138 5.25V6.4375Z"
+                                fill="#010202" />
+                        </svg>
+
+                    </a>
+                    <a href="">
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1.75 0.5C1.06 0.5 0.5 0.948 0.5 1.5V2.5C0.5 3.052 1.06 3.5 1.75 3.5H19.25C19.94 3.5 20.5 3.052 20.5 2.5V1.5C20.5 0.948 19.94 0.5 19.25 0.5H1.75Z"
+                                fill="#010202" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1.76667 8.54785C1.06747 8.54785 0.5 8.99585 0.5 9.54785V10.5479C0.5 11.0999 1.06747 11.5479 1.76667 11.5479H15.2333C15.9325 11.5479 16.5 11.0999 16.5 10.5479V9.54785C16.5 8.99585 15.9325 8.54785 15.2333 8.54785H1.76667Z"
+                                fill="#010202" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1.75 16.5957C1.06 16.5957 0.5 17.0437 0.5 17.5957V18.5957C0.5 19.1477 1.06 19.5957 1.75 19.5957H19.25C19.94 19.5957 20.5 19.1477 20.5 18.5957V17.5957C20.5 17.0437 19.94 16.5957 19.25 16.5957H1.75Z"
+                                fill="#010202" />
+                        </svg>
+                    </a>
+                </div>
+                <ul class="langWrap">
+                    <li class="active"><a href="">PT</a></li>
+                    <li><a href="" class="dot flex_align"></a></li>
+                    <li><a href="">EN</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- navbar end -->
+
+    <!-- .scroll sec ul start  -->
+    <!-- Sidebar Navigation -->
+    <div id="sidebar">
+        <ul>
+            <li><a href="#inicio" class="active"><span>Início</span></a></li>
+            <li><a href="#section1"><span>01</span></a></li>
+            <li><a href="#section2"><span>02</span></a></li>
+            <li><a href="#section3"><span>03</span></a></li>
+        </ul>
+    </div>
+    <!-- .scroll sec ul end -->
+
+    <!-- hero sec start  -->
+    <section class="heroWrap section" id="inicio">
+        <div class="container">
+            <div class="heroInner">
+                <div class="heroImg">
+                    <img src="./assets/img/heroImg.svg" alt="">
+                    <h6> ESPINHO I <span> PORTUGAL </span></h6>
+                </div>
+                <div class="pencilImg">
+                    <img src="./assets/img/pencilImg.svg" alt="">
+                </div>
+                <ul class="heroText">
+                    <li>
+                        <h4>48º Festival Internacional </h4>
+                    </li>
+                    <li>
+                        <h3>CINEMA DE ANIMAÇÃO</h3>
+                    </li>
+                    <li class="dateWrap">
+                        <h6>08</h6>
+                        <h6>17 NOV <sup>‘24</sup></h6>
+                    </li>
+                    <li>
+                        <p> Uma explosão de <b> liberdade e criatividade,</b></p>
+
+                    </li>
+                    <li>
+                        <p> tanto na tela como na vida...</p>
+                    </li>
+                    <li>
+                        <span>
+                            CINANIMA is an animation film festival co-organised by NASCENTE – Cooperative Society with
+                            Cultural Purposes, and by the Espinho City Hall. Ever since its first edition, back in 1976,
+                            it has been working continuously to promote this form of cinema and its authors. Being a
+                            precursor of cultural decentralisation in Portugal, CINANIMA has won international
+                            recognition while not belonging to the main cultural centres of Lisbon or Porto.
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <a href="#section1" class="flex_align hero_btn">E muito mais... <svg class="btnArrow" width="21" height="24"
+                    viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 16L19.1494 14.59L11.8125 20.17V0H9.1875V20.17L1.86375 14.58L0 16L10.5 24L21 16Z"
+                        fill="black" />
+                </svg>
+            </a>
+        </div>
+    </section>
+    <!-- hero sec end -->
+    <!-- submission sec start  -->
+    <section class="subWrap section" id="section1">
+        <div class="container">
+            <h3>Submissões</h3>
+        </div>
+        <div class="subInner">
+            <div class="container">
+                <div class="subContent">
+                    <div class="subText">
+                        <h2>Deadline</h2>
+                        <h6>para o envio das submissões</h6>
+                        <div class="timerCoundown">
+                            <div class="day">
+                                <h1></h1>
+                                <p>Dias</p>
+                            </div>
+                            <div class="day">
+                                <h1></h1>
+                                <p>Horas</p>
+                            </div>
+                            <div class="day">
+                                <h1></h1>
+                                <p>Min</p>
+                            </div>
+                            <div class="day">
+                                <h1></h1>
+                                <p>Sec</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="hurrySec">
+                        <li>
+                            <span>Hurry up!</span>
+                        </li>
+                        <li>
+                            <h3>Submite o seu filme</h3>
+                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 0.499999L14.59 2.35062L20.17 9.6875L-5.16341e-07 9.6875L-4.01598e-07 12.3125L20.17 12.3125L14.58 19.6362L16 21.5L24 11L16 0.499999Z"
+                                    fill="#158BFF" />
+                            </svg>
+
+                        </li>
+                        <li>
+                            <h3>Regulamento</h3>
+                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 0.499999L14.59 2.35062L20.17 9.6875L-5.16341e-07 9.6875L-4.01598e-07 12.3125L20.17 12.3125L14.58 19.6362L16 21.5L24 11L16 0.499999Z"
+                                    fill="#158BFF" />
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- submission sec end -->
+
+    <!-- tour sec start  -->
+    <section class="tourWrap section" id="section2">
+        <div class="container">
+            <h1>On Tour & Junior</h1>
+            <h6>Atividades associadas</h6>
+            <div class="videoWrap">
+                <div class="videoBox">
+                    <div class="dateRow">
+                        <div class="rect"></div>
+                        <div>
+                            <p>15 JAN</p>
+                            <div class="border"></div>
+                            <p>30 JUN <sup>‘24</sup></p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-xl-center flex-md-nowrap flex-wrap">
+                        <div class="videoImg">
+                            <img src="./assets/img/video1.svg" alt="" class="w-100">
+                            <img src="./assets/img/playBtn.svg" alt="" class="playBtn">
+                            <div class="d-flex justify-content-end">
+                                <a href="" class="docIcon flex_align"><img src="./assets/img/docIcon.svg" alt=""></a>
+                                <a href="" class="flex_align progBtn">Programa completo
+                                    <svg width="21" height="24" viewBox="0 0 24 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16 0.499999L14.59 2.35062L20.17 9.6875L-5.16341e-07 9.6875L-4.01598e-07 12.3125L20.17 12.3125L14.58 19.6362L16 21.5L24 11L16 0.499999Z"
+                                            fill="#fff" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="videoLightbox lightbox">
+                                <video class="lightboxVideo" controls>
+                                    <source src="./assets/img/video/demo.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                        <ul class="videoContent">
+                            <li>
+                                <p>O <b> CINANIMA On Tour </b> apresenta os premiados da 47º Edição do festival, de
+                                    Novembro 2023.
+                                </p>
+                            </li>
+                            <li>
+                                <span>Explore o mundo da animação através dos filmes como <b> “Our Uniform”, de Yegane
+                                        Moghaddam, </b> vencedora do Grande Prémio <b> e pré-seleccionada para a
+                                        nomeação aos Óscares, </b> “Crab Day” de Ross Stringer e “Family Portrait” de
+                                    Lea Vidakovic.
+                                </span>
+                            </li>
+                            <li>
+                                <span>Quer fazer parte lorem ipsum? </span>
+                                <a><span>Inscreve-se aqui</span> <svg width="10" height="11.43" viewBox="0 0 24 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16 0.499999L14.59 2.35062L20.17 9.6875L-5.16341e-07 9.6875L-4.01598e-07 12.3125L20.17 12.3125L14.58 19.6362L16 21.5L24 11L16 0.499999Z"
+                                            fill="#E00919" />
+                                    </svg> </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="videoBox">
+                    <div class="dateRow dateRow_">
+                        <div>
+                            <p>15 JAN</p>
+                            <div class="border"></div>
+                            <p>30 JUN <sup>‘24</sup></p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-xl-center flex-md-nowrap flex-wrap">
+                        <div class="videoImg">
+                            <img src="./assets/img/video2.svg" alt="" class="w-100">
+                            <img src="./assets/img/playBtn.svg" alt="" class="playBtn">
+                            <div class="d-flex justify-content-end">
+                                <a href="" class="docIcon flex_align"><img src="./assets/img/docIcon.svg" alt=""></a>
+                                <a href="" class="flex_align progBtn">Programa completo
+                                    <svg width="21" height="24" viewBox="0 0 24 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16 0.499999L14.59 2.35062L20.17 9.6875L-5.16341e-07 9.6875L-4.01598e-07 12.3125L20.17 12.3125L14.58 19.6362L16 21.5L24 11L16 0.499999Z"
+                                            fill="#fff" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="videoLightbox lightbox">
+                                <video class="lightboxVideo" controls>
+                                    <source src="./assets/img/video/demo.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+
+
+                        <ul class="videoContent">
+                            <li>
+                                <p>O <b> CINANIMA Junior </b> O apresenta uma jornada cinematográfica para os mais
+                                    novos! 🤩
+                                </p>
+                            </li>
+                            <li>
+                                <span>São 35 curtas-metragens, distribuídas por 3 programas que se destinam a todos os
+                                    ciclos de ensino, de realizadores de todo o mundo.
+                                </span>
+                            </li>
+                            <li>
+                                <span>Quer fazer parte lorem ipsum? </span>
+                                <a><span>Inscreve-se aqui</span> <svg width="10" height="11.43" viewBox="0 0 24 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16 0.499999L14.59 2.35062L20.17 9.6875L-5.16341e-07 9.6875L-4.01598e-07 12.3125L20.17 12.3125L14.58 19.6362L16 21.5L24 11L16 0.499999Z"
+                                            fill="#E00919" />
+                                    </svg> </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- tour sec end -->
+
+    <!-- logo sec start  -->
+    <section class="section" id="section3">
+        <div class="container">
+            <div class="logosWrap">
+                <div class="logoImg">
+                    <img src="./assets/img/logos/logo1.svg" alt="">
+                </div>
+                <div class="logoImg">
+                    <img src="./assets/img/logos/logo2.svg" alt="">
+                </div>
+                <div class="logoImg">
+                    <img src="./assets/img/logos/logo3.svg" alt="">
+                </div>
+                <div class="logoImg">
+                    <img src="./assets/img/logos/logo4.svg" alt="">
+                </div>
+                <div class="logoImg">
+                    <img src="./assets/img/logos/logo5.svg" alt="">
+                </div>
+                <div class="logoImg">
+                    <img src="./assets/img/logos/logo6.svg" alt="">
+                </div>
+                <div class="logoImg">
+                    <img src="./assets/img/logos/logo7.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- logo sec end -->
+
+    <!-- footer start  -->
+    <footer class="footerWrap">
+        <div class="container">
+            <div class="footerInner">
+                <ul>
+                    <li>
+                        <a>CONTACTOS</a>
+                    </li>
+                    <li>
+                        <a href="">+351 123 567 I +351 635 635 193</a>
+                    </li>
+                    <li>
+                        <a class="email" href="mailto:info@loremipsum.pt">info@loremipsum.pt</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a>LOCAL</a>
+                    </li>
+                    <li>
+                        <a>Auditório Lorem Ipsuma
+                            Rua 1º Maio 45
+                            Espinho I Portugal</a>
+                    </li>
+                    <li>
+                        <a class="flex_align"><span>Abre com Google Maps</span> <svg width="10" height="11.43"
+                                viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 0.499999L14.59 2.35062L20.17 9.6875L-5.16341e-07 9.6875L-4.01598e-07 12.3125L20.17 12.3125L14.58 19.6362L16 21.5L24 11L16 0.499999Z"
+                                    fill="#E00919"></path>
+                            </svg> </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a>SEGUE-NOS</a>
+                    </li>
+                    <li>
+                        <a href="">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="">Tic-Toc</a>
+                    </li>
+                    <li>
+                        <a href="">YouTube</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <ul class="socialIcons">
+                <li>
+                    <a href="">
+                        <svg width="16" height="26" viewBox="0 0 16 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14 2H10.7273C7.71481 2 5.27273 4.46243 5.27273 7.5V10.8H2V15.2H5.27273V24H9.63636V15.2H12.9091L14 10.8H9.63636V7.5C9.63636 6.89249 10.1248 6.4 10.7273 6.4H14V2Z"
+                                stroke="white" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="transparent"></li>
+                <li></li>
+                <li>
+                    <a href="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2" y="2" width="20" height="20" rx="6" stroke="white" stroke-width="2.4"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M15.9566 11.4133C16.2097 13.1202 15.3396 14.797 13.7983 15.5728C12.2569 16.3486 10.3918 16.0485 9.17164 14.8284C7.95147 13.6082 7.65135 11.7431 8.42715 10.2017C9.20295 8.6604 10.8798 7.79034 12.5867 8.04345C14.3296 8.3019 15.6981 9.67041 15.9566 11.4133Z"
+                                stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- timer end modal start  -->
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="timerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h2>You can apply now</h2>
+                  <a href="" class="modalBtn flex_align">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- timer end modal end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
